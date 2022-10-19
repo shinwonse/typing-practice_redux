@@ -11,6 +11,11 @@ module.exports = () => {
             loader: 'babel-loader',
           },
         },
+        {
+          test: /\.css$/,
+          use: ['style-loader', 'css-loader'],
+          exclude: /\.module\.css$/,
+        },
       ],
     },
     // webpack-dev-server v4.0.0부터는 HMR이 default로 설정되어있다.
