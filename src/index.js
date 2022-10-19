@@ -1,3 +1,5 @@
+import './index.css';
+
 import { createStore } from 'redux';
 import reducer from './reducers/reducer';
 import { typeInput } from './actions/action';
