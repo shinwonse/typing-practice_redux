@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/wonse/.nvm/versions/node/v16.15.1/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add @reduxjs/toolki
+
+PATH: 
+  /Users/wonse/.nvm/versions/node/v16.15.1/bin:/Users/wonse/.rbenv/shims:/Users/wonse/.rbenv/bin:/opt/homebrew/Cellar/mongodb-community/6.0.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/wonse/Library/Android/sdk/platform-tools:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin:/Users/wonse/Desktop/practice/vanilla_redux/node_modules/.bin:/Users/wonse/Library/Android/sdk/emulator:/Users/wonse/Library/Android/sdk/tools:/Users/wonse/Library/Android/sdk/tools/bin:/Users/wonse/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@reduxjs%2ftoolki: Not found
+      at Request.params.callback [as _callback] (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at Request.self.callback (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "vanilla_redux",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
